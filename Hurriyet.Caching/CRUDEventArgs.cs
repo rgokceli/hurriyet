@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hurriyet.Caching
 {
-    public class CRUDEventArgs<T>
+    public class CRUDEventArgs<T> 
     {
         public CRUDEventArgs()
         {
