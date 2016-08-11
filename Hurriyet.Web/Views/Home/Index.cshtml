@@ -1,0 +1,29 @@
+﻿@model Hurriyet.Web.Models.NewsListViewModel
+@{
+    ViewBag.Title = "News List";
+}
+
+<h2>News List</h2>
+
+<table>
+    <tr>
+        <td style="width:100px">Id</td>
+        <td style="width:100px">Name</td>
+        <td style="width:200px">Create Date</td>
+        <td style="width:200px">UpdateDate</td>
+    </tr>
+    @foreach (var item in Model.News)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.CreatedDate</td>
+            <td>@item.UpdatedDate</td>
+        </tr>
+    }
+</table>
+
+    @Html.ActionLink("Prev", "Index", "Home", new { currentPage = Model.CurrentPageIndex == 0 ? 0 : Model.CurrentPageIndex - 1 }, Model.CurrentPageIndex == 0 ? new { style = "pointer-events: none;"} : null ) &nbsp;&nbsp;&nbsp;&nbsp;
+    @Html.ActionLink("Next", "Index", "Home", new { currentPage = Model.LastPage ? Model.CurrentPageIndex : Model.CurrentPageIndex + 1 }, Model.LastPage ? new { style = "pointer-events: none;" } : null)
+
+    

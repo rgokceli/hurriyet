@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hurriyet.Data", "Hurriyet.Data\Hurriyet.Data.csproj", "{D35448C5-14C0-4588-B68D-CA77AB3B535F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hurriyet.Model", "Hurriyet.Model\Hurriyet.Model.csproj", "{1B17D528-6DFC-4A71-BC41-E793594ACF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hurriyet.Web.Api", "Hurriyet.Web.Api\Hurriyet.Web.Api.csproj", "{15DFBBE4-A801-415A-AFCF-42C1FE8F32CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hurriyet.Caching", "Hurriyet.Caching\Hurriyet.Caching.csproj", "{96D3D3E8-6CD8-48D9-80AD-77A79B2A24AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hurriyet.Web", "Hurriyet.Web\Hurriyet.Web.csproj", "{ACD35EE5-70FB-4084-A73F-555964A2F377}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D35448C5-14C0-4588-B68D-CA77AB3B535F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35448C5-14C0-4588-B68D-CA77AB3B535F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35448C5-14C0-4588-B68D-CA77AB3B535F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35448C5-14C0-4588-B68D-CA77AB3B535F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B17D528-6DFC-4A71-BC41-E793594ACF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B17D528-6DFC-4A71-BC41-E793594ACF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B17D528-6DFC-4A71-BC41-E793594ACF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B17D528-6DFC-4A71-BC41-E793594ACF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15DFBBE4-A801-415A-AFCF-42C1FE8F32CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DFBBE4-A801-415A-AFCF-42C1FE8F32CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DFBBE4-A801-415A-AFCF-42C1FE8F32CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DFBBE4-A801-415A-AFCF-42C1FE8F32CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D3D3E8-6CD8-48D9-80AD-77A79B2A24AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D3D3E8-6CD8-48D9-80AD-77A79B2A24AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D3D3E8-6CD8-48D9-80AD-77A79B2A24AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D3D3E8-6CD8-48D9-80AD-77A79B2A24AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD35EE5-70FB-4084-A73F-555964A2F377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD35EE5-70FB-4084-A73F-555964A2F377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD35EE5-70FB-4084-A73F-555964A2F377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD35EE5-70FB-4084-A73F-555964A2F377}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
